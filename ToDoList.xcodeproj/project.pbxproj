@@ -28,6 +28,8 @@
 		800175BC2BA48B2000E5451E /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 800175BB2BA48B2000E5451E /* FirebaseFirestoreSwift */; };
 		800175BE2BA48B2000E5451E /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 800175BD2BA48B2000E5451E /* FirebaseFunctions */; };
 		800175C02BA48B9100E5451E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 800175BF2BA48B9100E5451E /* GoogleService-Info.plist */; };
+		800175C52BA4CA2700E5451E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800175C42BA4CA2700E5451E /* MainView.swift */; };
+		800175C72BA4CA3300E5451E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800175C62BA4CA3300E5451E /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		800175942BA4865200E5451E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		800175972BA4865200E5451E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		800175BF2BA48B9100E5451E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		800175C42BA4CA2700E5451E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		800175C62BA4CA3300E5451E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,9 @@
 		8001758F2BA4864F00E5451E /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				800175C32BA4CA1100E5451E /* Models */,
+				800175C22BA4CA0600E5451E /* ViewModels */,
+				800175C12BA4CA0000E5451E /* Views */,
 				800175BF2BA48B9100E5451E /* GoogleService-Info.plist */,
 				800175902BA4864F00E5451E /* ToDoListApp.swift */,
 				800175922BA4864F00E5451E /* ContentView.swift */,
@@ -100,6 +107,29 @@
 				800175972BA4865200E5451E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		800175C12BA4CA0000E5451E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				800175C42BA4CA2700E5451E /* MainView.swift */,
+				800175C62BA4CA3300E5451E /* LoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		800175C22BA4CA0600E5451E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		800175C32BA4CA1100E5451E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +225,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				800175932BA4864F00E5451E /* ContentView.swift in Sources */,
+				800175C52BA4CA2700E5451E /* MainView.swift in Sources */,
+				800175C72BA4CA3300E5451E /* LoginView.swift in Sources */,
 				800175912BA4864F00E5451E /* ToDoListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,6 +361,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ToDoList/Preview Content\"";
+				DEVELOPMENT_TEAM = 2VH28277N9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -357,6 +390,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ToDoList/Preview Content\"";
+				DEVELOPMENT_TEAM = 2VH28277N9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
