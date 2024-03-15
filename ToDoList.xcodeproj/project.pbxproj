@@ -27,6 +27,7 @@
 		800175BA2BA48B2000E5451E /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 800175B92BA48B2000E5451E /* FirebaseFirestoreCombine-Community */; };
 		800175BC2BA48B2000E5451E /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 800175BB2BA48B2000E5451E /* FirebaseFirestoreSwift */; };
 		800175BE2BA48B2000E5451E /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 800175BD2BA48B2000E5451E /* FirebaseFunctions */; };
+		800175C02BA48B9100E5451E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 800175BF2BA48B9100E5451E /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		800175922BA4864F00E5451E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		800175942BA4865200E5451E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		800175972BA4865200E5451E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		800175BF2BA48B9100E5451E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		8001758F2BA4864F00E5451E /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				800175BF2BA48B9100E5451E /* GoogleService-Info.plist */,
 				800175902BA4864F00E5451E /* ToDoListApp.swift */,
 				800175922BA4864F00E5451E /* ContentView.swift */,
 				800175942BA4865200E5451E /* Assets.xcassets */,
@@ -180,6 +183,7 @@
 			files = (
 				800175982BA4865200E5451E /* Preview Assets.xcassets in Resources */,
 				800175952BA4865200E5451E /* Assets.xcassets in Resources */,
+				800175C02BA48B9100E5451E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
