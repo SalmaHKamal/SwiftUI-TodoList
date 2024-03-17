@@ -30,6 +30,15 @@
 		800175C02BA48B9100E5451E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 800175BF2BA48B9100E5451E /* GoogleService-Info.plist */; };
 		800175C52BA4CA2700E5451E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800175C42BA4CA2700E5451E /* MainView.swift */; };
 		800175C72BA4CA3300E5451E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800175C62BA4CA3300E5451E /* LoginView.swift */; };
+		800175C92BA7007A00E5451E /* MainViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800175C82BA7007A00E5451E /* MainViewVM.swift */; };
+		800175CB2BA7023800E5451E /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800175CA2BA7023800E5451E /* TodoListView.swift */; };
+		800175CE2BA7031E00E5451E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800175CD2BA7031E00E5451E /* HeaderView.swift */; };
+		800175D02BA70B9500E5451E /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800175CF2BA70B9500E5451E /* TLButton.swift */; };
+		800175D22BA70CFE00E5451E /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800175D12BA70CFE00E5451E /* RegisterView.swift */; };
+		800175D42BA70EBE00E5451E /* RegisterViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800175D32BA70EBE00E5451E /* RegisterViewVM.swift */; };
+		800175D62BA76D9F00E5451E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800175D52BA76D9F00E5451E /* User.swift */; };
+		800175D92BA76DDB00E5451E /* EncodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800175D82BA76DDB00E5451E /* EncodableExtension.swift */; };
+		800175DB2BA7767A00E5451E /* LoginViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800175DA2BA7767A00E5451E /* LoginViewVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +50,15 @@
 		800175BF2BA48B9100E5451E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		800175C42BA4CA2700E5451E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		800175C62BA4CA3300E5451E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		800175C82BA7007A00E5451E /* MainViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewVM.swift; sourceTree = "<group>"; };
+		800175CA2BA7023800E5451E /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
+		800175CD2BA7031E00E5451E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		800175CF2BA70B9500E5451E /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
+		800175D12BA70CFE00E5451E /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		800175D32BA70EBE00E5451E /* RegisterViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewVM.swift; sourceTree = "<group>"; };
+		800175D52BA76D9F00E5451E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		800175D82BA76DDB00E5451E /* EncodableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodableExtension.swift; sourceTree = "<group>"; };
+		800175DA2BA7767A00E5451E /* LoginViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +107,7 @@
 		8001758F2BA4864F00E5451E /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				800175D72BA76DB200E5451E /* Extensions */,
 				800175C32BA4CA1100E5451E /* Models */,
 				800175C22BA4CA0600E5451E /* ViewModels */,
 				800175C12BA4CA0000E5451E /* Views */,
@@ -112,8 +131,11 @@
 		800175C12BA4CA0000E5451E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				800175CC2BA7030900E5451E /* ReusableViews */,
 				800175C42BA4CA2700E5451E /* MainView.swift */,
 				800175C62BA4CA3300E5451E /* LoginView.swift */,
+				800175CA2BA7023800E5451E /* TodoListView.swift */,
+				800175D12BA70CFE00E5451E /* RegisterView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -121,6 +143,9 @@
 		800175C22BA4CA0600E5451E /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				800175C82BA7007A00E5451E /* MainViewVM.swift */,
+				800175D32BA70EBE00E5451E /* RegisterViewVM.swift */,
+				800175DA2BA7767A00E5451E /* LoginViewVM.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -128,8 +153,26 @@
 		800175C32BA4CA1100E5451E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				800175D52BA76D9F00E5451E /* User.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		800175CC2BA7030900E5451E /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				800175CD2BA7031E00E5451E /* HeaderView.swift */,
+				800175CF2BA70B9500E5451E /* TLButton.swift */,
+			);
+			path = ReusableViews;
+			sourceTree = "<group>";
+		};
+		800175D72BA76DB200E5451E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				800175D82BA76DDB00E5451E /* EncodableExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,10 +267,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				800175D42BA70EBE00E5451E /* RegisterViewVM.swift in Sources */,
+				800175D92BA76DDB00E5451E /* EncodableExtension.swift in Sources */,
+				800175D22BA70CFE00E5451E /* RegisterView.swift in Sources */,
 				800175932BA4864F00E5451E /* ContentView.swift in Sources */,
 				800175C52BA4CA2700E5451E /* MainView.swift in Sources */,
+				800175CB2BA7023800E5451E /* TodoListView.swift in Sources */,
 				800175C72BA4CA3300E5451E /* LoginView.swift in Sources */,
 				800175912BA4864F00E5451E /* ToDoListApp.swift in Sources */,
+				800175D02BA70B9500E5451E /* TLButton.swift in Sources */,
+				800175C92BA7007A00E5451E /* MainViewVM.swift in Sources */,
+				800175CE2BA7031E00E5451E /* HeaderView.swift in Sources */,
+				800175D62BA76D9F00E5451E /* User.swift in Sources */,
+				800175DB2BA7767A00E5451E /* LoginViewVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

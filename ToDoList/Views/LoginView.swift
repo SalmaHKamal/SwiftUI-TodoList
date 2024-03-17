@@ -8,61 +8,52 @@
 import SwiftUI
 
 struct LoginView: View {
-    @State var email: String = ""
-    @State var password: String = ""
+    @StateObject var vm = LoginViewVM()
     
     var body: some View {
-        // Header
-        ZStack {
-            Rectangle()
-                .foregroundColor(.pink)
-                .rotationEffect(.degrees(15))
+        NavigationStack {
+            // Header
+            HeaderView(title: "ToDo List",
+                       subtitle: "Let's Make Difference",
+                       yPosition: -100,
+                       frame: (width: UIScreen.main.bounds.width * 3,
+                               height: 300),
+                       rotationDegree: 15,
+                       bgColor: .pink)
             
-            VStack {
-                Text("ToDo List")
-                    .font(.largeTitle)
-                    .fontWeight(.bold)
-                
-                Text("Make Things Done")
-                    .font(.title3)
-            }
-            .foregroundColor(.white)
-            .padding(.top, 24)
-        }
-        .frame(width: UIScreen.main.bounds.width * 3,
-        height: 300)
-        .offset(y: -100)
-        
-        Spacer()
-        
-        // Form
-        Form {
-            TextField("Email Address", text: $email)
-            SecureField("Password", text: $password)
+            Spacer()
             
-            Button(action: {
-                
-            }, label: {
-                ZStack {
-                    RoundedRectangle(cornerRadius: 10)
-                        .foregroundColor(.blue)
-                    
-                    Text("Login")
-                        .foregroundStyle(.white)
+            // Form
+            Form {
+                if !vm.errorMessage.isEmpty {
+                    Text(vm.errorMessage)
+                        .foregroundStyle(.red)
+                        .font(.callout)
                 }
-            })
-        }
-        
-        Spacer()
-        
-        // Registeration Footer
-        VStack {
-            Text("New Member?")
-            Button("Create a New Account") {
+                TextField("Email Address", text: $vm.email)
+                SecureField("Password", text: $vm.password)
                 
+                TLButton(title: "Login",
+                         bgColor: .blue,
+                         textColor: .white,
+                         cornerRadius: 10) {
+                    vm.login()
+                }.padding(16)
             }
+            
+            Spacer()
+            
+            // Registeration Footer
+            VStack {
+                Text("New Member?")
+                NavigationLink {
+                    RegisterView()
+                } label: {
+                    Text("Create New Account")
+                }
+            }
+            .padding(50)
         }
-        .padding(.bottom, 50)
     }
 }
 
