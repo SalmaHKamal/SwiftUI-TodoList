@@ -14,9 +14,9 @@ struct RegisterView: View {
         // Header
         HeaderView(title: "Register",
                    subtitle: "Start Organizing todos",
-                   yPosition: -100,
+                   yPosition: -150,
                    frame: (width: UIScreen.main.bounds.width * 3,
-                           height: 300),
+                           height: 330),
                    rotationDegree: -15,
                    bgColor: .orange)
         
@@ -40,6 +40,7 @@ struct RegisterView: View {
                 vm.register()
             }.padding(16)
         }
+        .offset(y: -50)
         
         Spacer()
     }
