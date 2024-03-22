@@ -39,6 +39,10 @@
 		800175D62BA76D9F00E5451E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800175D52BA76D9F00E5451E /* User.swift */; };
 		800175D92BA76DDB00E5451E /* EncodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800175D82BA76DDB00E5451E /* EncodableExtension.swift */; };
 		800175DB2BA7767A00E5451E /* LoginViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800175DA2BA7767A00E5451E /* LoginViewVM.swift */; };
+		800175DF2BA9D7B700E5451E /* ToDoListViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800175DE2BA9D7B700E5451E /* ToDoListViewVM.swift */; };
+		800175ED2BA9DF0900E5451E /* AddNewTodoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800175EC2BA9DF0900E5451E /* AddNewTodoItemView.swift */; };
+		800175EF2BAB197000E5451E /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800175EE2BAB197000E5451E /* TodoItem.swift */; };
+		800175F12BAB2A4A00E5451E /* AddNewTodoItemViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800175F02BAB2A4A00E5451E /* AddNewTodoItemViewVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +63,10 @@
 		800175D52BA76D9F00E5451E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		800175D82BA76DDB00E5451E /* EncodableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodableExtension.swift; sourceTree = "<group>"; };
 		800175DA2BA7767A00E5451E /* LoginViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewVM.swift; sourceTree = "<group>"; };
+		800175DE2BA9D7B700E5451E /* ToDoListViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewVM.swift; sourceTree = "<group>"; };
+		800175EC2BA9DF0900E5451E /* AddNewTodoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewTodoItemView.swift; sourceTree = "<group>"; };
+		800175EE2BAB197000E5451E /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
+		800175F02BAB2A4A00E5451E /* AddNewTodoItemViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewTodoItemViewVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +144,7 @@
 				800175C62BA4CA3300E5451E /* LoginView.swift */,
 				800175CA2BA7023800E5451E /* TodoListView.swift */,
 				800175D12BA70CFE00E5451E /* RegisterView.swift */,
+				800175EC2BA9DF0900E5451E /* AddNewTodoItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -146,6 +155,8 @@
 				800175C82BA7007A00E5451E /* MainViewVM.swift */,
 				800175D32BA70EBE00E5451E /* RegisterViewVM.swift */,
 				800175DA2BA7767A00E5451E /* LoginViewVM.swift */,
+				800175DE2BA9D7B700E5451E /* ToDoListViewVM.swift */,
+				800175F02BAB2A4A00E5451E /* AddNewTodoItemViewVM.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -154,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				800175D52BA76D9F00E5451E /* User.swift */,
+				800175EE2BAB197000E5451E /* TodoItem.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -270,8 +282,10 @@
 				800175D42BA70EBE00E5451E /* RegisterViewVM.swift in Sources */,
 				800175D92BA76DDB00E5451E /* EncodableExtension.swift in Sources */,
 				800175D22BA70CFE00E5451E /* RegisterView.swift in Sources */,
+				800175DF2BA9D7B700E5451E /* ToDoListViewVM.swift in Sources */,
 				800175932BA4864F00E5451E /* ContentView.swift in Sources */,
 				800175C52BA4CA2700E5451E /* MainView.swift in Sources */,
+				800175ED2BA9DF0900E5451E /* AddNewTodoItemView.swift in Sources */,
 				800175CB2BA7023800E5451E /* TodoListView.swift in Sources */,
 				800175C72BA4CA3300E5451E /* LoginView.swift in Sources */,
 				800175912BA4864F00E5451E /* ToDoListApp.swift in Sources */,
@@ -279,7 +293,9 @@
 				800175C92BA7007A00E5451E /* MainViewVM.swift in Sources */,
 				800175CE2BA7031E00E5451E /* HeaderView.swift in Sources */,
 				800175D62BA76D9F00E5451E /* User.swift in Sources */,
+				800175EF2BAB197000E5451E /* TodoItem.swift in Sources */,
 				800175DB2BA7767A00E5451E /* LoginViewVM.swift in Sources */,
+				800175F12BAB2A4A00E5451E /* AddNewTodoItemViewVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
