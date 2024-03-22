@@ -14,4 +14,13 @@ struct TodoItem: Codable, Identifiable {
     var creationDate: TimeInterval = Date().timeIntervalSince1970
     let dueDate: TimeInterval
     var isDone: Bool
+    
+    var dueDateForPresentation: String {
+        Date(timeIntervalSince1970: dueDate).formatted(date: .abbreviated,
+                                                                time: .shortened)
+    }
+    
+    mutating func toggleIsDone() {
+        isDone.toggle()
+    }
 }

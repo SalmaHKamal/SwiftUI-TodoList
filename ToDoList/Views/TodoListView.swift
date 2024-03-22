@@ -27,7 +27,13 @@ struct TodoListView: View {
                     Text("No Data Found")
                 } else {
                     List(items) { item in
-                        Text(item.title)
+                        TodoItemView(item: item)
+                            .swipeActions {
+                                Button("Delete") {
+                                    vm.deleteItem(with: item.id)
+                                }
+                                .tint(.red)
+                            }
                     }
                 }
             }
@@ -43,7 +49,7 @@ struct TodoListView: View {
                 
                 ToolbarItem(placement: .topBarLeading) {
                     Button {
-                        
+                        vm.logOut()
                     } label: {
                         Text("LogOut")
                             .foregroundStyle(.red)
