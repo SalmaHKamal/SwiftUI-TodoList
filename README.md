@@ -14,8 +14,7 @@ This is a Reminder swiftUI app
 - Firebase firestore property wrappers to query data from it.
 ## Lessons Learned
 
-* Firebase is not working with MacOS target if added to the project via SPM
-    - Because there is a file in FirebaseMessaging is using UIKit, and UIKit is not available on MacOS since it is using AppKit instead.
+* The difference between Mac Catalyst and MacOS is: Mac Catalyst supports iOS & iPadOS SDK. which makes it eaiser to support Mac application without need to write a specific code using AppKit that MacOS uses.
       
 ## Detected Issues + Solution
 
