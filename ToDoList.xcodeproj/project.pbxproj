@@ -28,14 +28,21 @@
 		800175F12BAB2A4A00E5451E /* AddNewTodoItemViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800175F02BAB2A4A00E5451E /* AddNewTodoItemViewVM.swift */; };
 		800175F32BADD59700E5451E /* TodoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800175F22BADD59700E5451E /* TodoItemView.swift */; };
 		800175F52BADDB2700E5451E /* TodoItemVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800175F42BADDB2700E5451E /* TodoItemVM.swift */; };
-		BB2F6EAC50D349FC9C109E3C /* Pods_ToDoList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5BF8D28BE88F5F1BF67EE4 /* Pods_ToDoList.framework */; };
+		804797282C1DF11900D8D985 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 804797272C1DF11900D8D985 /* FirebaseAppCheck */; };
+		8047972A2C1DF11900D8D985 /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 804797292C1DF11900D8D985 /* FirebaseAppDistribution-Beta */; };
+		8047972C2C1DF11900D8D985 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 8047972B2C1DF11900D8D985 /* FirebaseAuth */; };
+		8047972E2C1DF11900D8D985 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 8047972D2C1DF11900D8D985 /* FirebaseDatabase */; };
+		804797302C1DF11900D8D985 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8047972F2C1DF11900D8D985 /* FirebaseDatabaseSwift */; };
+		804797322C1DF11900D8D985 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 804797312C1DF11900D8D985 /* FirebaseFirestore */; };
+		804797342C1DF11900D8D985 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 804797332C1DF11900D8D985 /* FirebaseFirestoreSwift */; };
+		804797362C1DF11900D8D985 /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 804797352C1DF11900D8D985 /* FirebaseFunctionsCombine-Community */; };
+		804797382C1DF11900D8D985 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 804797372C1DF11900D8D985 /* FirebaseMessaging */; };
+		8047973A2C1DF11900D8D985 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 804797392C1DF11900D8D985 /* FirebaseRemoteConfig */; };
+		8047973C2C1DF11900D8D985 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8047973B2C1DF11900D8D985 /* FirebaseRemoteConfigSwift */; };
+		8047973E2C1DF11900D8D985 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 8047973D2C1DF11900D8D985 /* FirebaseStorage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		268F1573A887DEE88B9B1D63 /* Pods-ToDoList-MacOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoList-MacOS.release.xcconfig"; path = "Target Support Files/Pods-ToDoList-MacOS/Pods-ToDoList-MacOS.release.xcconfig"; sourceTree = "<group>"; };
-		55D706CBA5041DF5A8AECF38 /* Pods-ToDoList-MacOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoList-MacOS.debug.xcconfig"; path = "Target Support Files/Pods-ToDoList-MacOS/Pods-ToDoList-MacOS.debug.xcconfig"; sourceTree = "<group>"; };
-		6A5BF8D28BE88F5F1BF67EE4 /* Pods_ToDoList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDoList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F1153A6D92336C70D8B2E4A /* Pods_ToDoList_MacOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDoList_MacOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8001758D2BA4864F00E5451E /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		800175902BA4864F00E5451E /* ToDoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListApp.swift; sourceTree = "<group>"; };
 		800175942BA4865200E5451E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,8 +67,6 @@
 		800175F42BADDB2700E5451E /* TodoItemVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItemVM.swift; sourceTree = "<group>"; };
 		804796E52C1DE70600D8D985 /* FirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		804796EC2C1DE7A300D8D985 /* ToDoList.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ToDoList.entitlements; sourceTree = "<group>"; };
-		8373DFDC2FA8886CA2A587F3 /* Pods-ToDoList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoList.release.xcconfig"; path = "Target Support Files/Pods-ToDoList/Pods-ToDoList.release.xcconfig"; sourceTree = "<group>"; };
-		91B559914D46DADD0C3AA592 /* Pods-ToDoList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoList.debug.xcconfig"; path = "Target Support Files/Pods-ToDoList/Pods-ToDoList.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +74,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB2F6EAC50D349FC9C109E3C /* Pods_ToDoList.framework in Frameworks */,
+				804797382C1DF11900D8D985 /* FirebaseMessaging in Frameworks */,
+				804797302C1DF11900D8D985 /* FirebaseDatabaseSwift in Frameworks */,
+				804797282C1DF11900D8D985 /* FirebaseAppCheck in Frameworks */,
+				8047972C2C1DF11900D8D985 /* FirebaseAuth in Frameworks */,
+				804797342C1DF11900D8D985 /* FirebaseFirestoreSwift in Frameworks */,
+				8047973E2C1DF11900D8D985 /* FirebaseStorage in Frameworks */,
+				8047973C2C1DF11900D8D985 /* FirebaseRemoteConfigSwift in Frameworks */,
+				8047972E2C1DF11900D8D985 /* FirebaseDatabase in Frameworks */,
+				8047972A2C1DF11900D8D985 /* FirebaseAppDistribution-Beta in Frameworks */,
+				804797322C1DF11900D8D985 /* FirebaseFirestore in Frameworks */,
+				804797362C1DF11900D8D985 /* FirebaseFunctionsCombine-Community in Frameworks */,
+				8047973A2C1DF11900D8D985 /* FirebaseRemoteConfig in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,8 +191,6 @@
 			isa = PBXGroup;
 			children = (
 				804796E52C1DE70600D8D985 /* FirebaseAuth.framework */,
-				6A5BF8D28BE88F5F1BF67EE4 /* Pods_ToDoList.framework */,
-				7F1153A6D92336C70D8B2E4A /* Pods_ToDoList_MacOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -184,10 +198,6 @@
 		9EF6153CC1D5E9B6699F0632 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				91B559914D46DADD0C3AA592 /* Pods-ToDoList.debug.xcconfig */,
-				8373DFDC2FA8886CA2A587F3 /* Pods-ToDoList.release.xcconfig */,
-				55D706CBA5041DF5A8AECF38 /* Pods-ToDoList-MacOS.debug.xcconfig */,
-				268F1573A887DEE88B9B1D63 /* Pods-ToDoList-MacOS.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -199,17 +209,29 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8001759B2BA4865200E5451E /* Build configuration list for PBXNativeTarget "ToDoList" */;
 			buildPhases = (
-				6E2982A64016EA5C16538730 /* [CP] Check Pods Manifest.lock */,
 				800175892BA4864F00E5451E /* Sources */,
 				8001758A2BA4864F00E5451E /* Frameworks */,
 				8001758B2BA4864F00E5451E /* Resources */,
-				81884712FE0900AF12733265 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = ToDoList;
+			packageProductDependencies = (
+				804797272C1DF11900D8D985 /* FirebaseAppCheck */,
+				804797292C1DF11900D8D985 /* FirebaseAppDistribution-Beta */,
+				8047972B2C1DF11900D8D985 /* FirebaseAuth */,
+				8047972D2C1DF11900D8D985 /* FirebaseDatabase */,
+				8047972F2C1DF11900D8D985 /* FirebaseDatabaseSwift */,
+				804797312C1DF11900D8D985 /* FirebaseFirestore */,
+				804797332C1DF11900D8D985 /* FirebaseFirestoreSwift */,
+				804797352C1DF11900D8D985 /* FirebaseFunctionsCombine-Community */,
+				804797372C1DF11900D8D985 /* FirebaseMessaging */,
+				804797392C1DF11900D8D985 /* FirebaseRemoteConfig */,
+				8047973B2C1DF11900D8D985 /* FirebaseRemoteConfigSwift */,
+				8047973D2C1DF11900D8D985 /* FirebaseStorage */,
+			);
 			productName = ToDoList;
 			productReference = 8001758D2BA4864F00E5451E /* ToDoList.app */;
 			productType = "com.apple.product-type.application";
@@ -238,6 +260,9 @@
 				Base,
 			);
 			mainGroup = 800175842BA4864F00E5451E;
+			packageReferences = (
+				804797262C1DF11900D8D985 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 8001758E2BA4864F00E5451E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,48 +284,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		6E2982A64016EA5C16538730 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ToDoList-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		81884712FE0900AF12733265 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ToDoList/Pods-ToDoList-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ToDoList/Pods-ToDoList-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ToDoList/Pods-ToDoList-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		800175892BA4864F00E5451E /* Sources */ = {
@@ -452,7 +435,6 @@
 		};
 		8001759C2BA4865200E5451E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91B559914D46DADD0C3AA592 /* Pods-ToDoList.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -487,7 +469,6 @@
 		};
 		8001759D2BA4865200E5451E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8373DFDC2FA8886CA2A587F3 /* Pods-ToDoList.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -542,6 +523,80 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		804797262C1DF11900D8D985 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.27.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		804797272C1DF11900D8D985 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 804797262C1DF11900D8D985 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		804797292C1DF11900D8D985 /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 804797262C1DF11900D8D985 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+		8047972B2C1DF11900D8D985 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 804797262C1DF11900D8D985 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		8047972D2C1DF11900D8D985 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 804797262C1DF11900D8D985 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		8047972F2C1DF11900D8D985 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 804797262C1DF11900D8D985 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		804797312C1DF11900D8D985 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 804797262C1DF11900D8D985 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		804797332C1DF11900D8D985 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 804797262C1DF11900D8D985 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		804797352C1DF11900D8D985 /* FirebaseFunctionsCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 804797262C1DF11900D8D985 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFunctionsCombine-Community";
+		};
+		804797372C1DF11900D8D985 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 804797262C1DF11900D8D985 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		804797392C1DF11900D8D985 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 804797262C1DF11900D8D985 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		8047973B2C1DF11900D8D985 /* FirebaseRemoteConfigSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 804797262C1DF11900D8D985 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfigSwift;
+		};
+		8047973D2C1DF11900D8D985 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 804797262C1DF11900D8D985 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 800175852BA4864F00E5451E /* Project object */;
 }
