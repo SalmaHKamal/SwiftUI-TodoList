@@ -21,6 +21,8 @@ This is a Reminder swiftUI app
 | Issue             | Solution                                                                |
 | ----------------- | ------------------------------------------------------------------ |
 |If MacOS generated an issue while adding firebase via pod file, that is related to sandbox| Go to build settings of the project, below build option, turn off “user script sandbox” |
+|firebase logging error <img width="400" alt="Screenshot 2024-06-16 at 10 52 39 AM" src="https://github.com/SalmaHKamal/SwiftUI-TodoList/assets/29051319/cea404ae-1e11-47d8-b41a-5b36113e43d6">| 1] enable *keychain sharing* capability<br> 2] press + button to add the current target by default|
+
 
 
 
