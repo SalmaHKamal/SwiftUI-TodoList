@@ -21,7 +21,13 @@ This is a Reminder swiftUI app
 | Issue             | Solution                                                                |
 | ----------------- | ------------------------------------------------------------------ |
 |If MacOS generated an issue while adding firebase via pod file, that is related to sandbox| Go to build settings of the project, below build option, turn off “user script sandbox” |
-|firebase logging error <img width="400" alt="Screenshot 2024-06-16 at 10 52 39 AM" src="https://github.com/SalmaHKamal/SwiftUI-TodoList/assets/29051319/cea404ae-1e11-47d8-b41a-5b36113e43d6">| 1] enable *keychain sharing* capability<br> 2] press + button to add the current target by default|
+|firebase logging error <img width="500" alt="Screenshot 2024-06-16 at 10 52 39 AM" src="https://github.com/SalmaHKamal/SwiftUI-TodoList/assets/29051319/cea404ae-1e11-47d8-b41a-5b36113e43d6">| 1] enable *keychain sharing* capability<br> 2] press + button to add the current target by default|
+|Although you logged in, you have no permission to fetch data <img width="500" alt="Screenshot 2024-06-16 at 11 05 21 AM" src="https://github.com/SalmaHKamal/SwiftUI-TodoList/assets/29051319/c76ebf9e-694a-4319-9d42-d0ede8658e73">| Update rules to enable read & write data<br> <img width="1000" alt="Screenshot 2024-06-16 at 11 07 05 AM" src="https://github.com/SalmaHKamal/SwiftUI-TodoList/assets/29051319/8f4bdc85-d5de-4312-a130-2e6ea95d25c1">|
+|While log in, The supplied auth credential is incorrect, malformed or has expired| Uncheck *Email Enumuration Protection* <img width="1067" alt="Screenshot 2024-06-16 at 11 12 07 AM" src="https://github.com/SalmaHKamal/SwiftUI-TodoList/assets/29051319/4a9871e2-a6a2-43e1-89e6-ebeee3e4116f">|
+
+
+
+
 
 
 
