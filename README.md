@@ -1,4 +1,9 @@
 
+# Project Title
+
+A brief description of what this project does and who it's for
+
+
 # ToDo List
 
 This is a Reminder swiftUI app
@@ -12,9 +17,14 @@ This is a Reminder swiftUI app
 ## Acheivments
 - Add Firebase using SwiftPackages
 - Firebase firestore property wrappers to query data from it.
+  
 ## Lessons Learned
-
 * The difference between Mac Catalyst and MacOS is: Mac Catalyst supports iOS & iPadOS SDK. which makes it eaiser to support Mac application without need to write a specific code using AppKit that MacOS uses.
+* To enable iCloud syncing, you've to be signed in with a paid apple account.
+    * useful links:
+        *    https://www.hackingwithswift.com/quick-start/swiftdata/how-to-sync-swiftdata-with-icloud
+        * https://icloud.developer.apple.com/dashboard/home/teams/2VH28277N9 
+         
       
 ## Detected Issues + Solution
 
